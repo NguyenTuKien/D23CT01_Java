@@ -1,8 +1,0 @@
-**/.idea
-**/out
-**/*.iml
-**/target
-*.log
-.DS_Store
-.vscode/
-**/*.in
