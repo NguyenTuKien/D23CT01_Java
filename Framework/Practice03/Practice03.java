@@ -26,7 +26,7 @@ public class Practice03 extends JFrame {
         tabbedPane.addTab("3. Phân Công & Tìm Kiếm", panelPhanCong);
 
         tabbedPane.addChangeListener(e -> {
-            if (tabbedPane.getSelectedIndex() == 2) { // Index 2 là Tab Phân Công
+            if (tabbedPane.getSelectedIndex() == 2) {
                 panelPhanCong.refreshData();
             }
         });
